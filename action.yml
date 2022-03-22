@@ -3,14 +3,14 @@ description: "bicep build example"
 
 steps:
 # Runs the bicep CLI action - individual files
-- name: Run Bicep build
-  uses:  dennisdelamida/bicep@main
-  with:
-    files: 'main.bicep'
+#- name: Run Bicep build
+#  uses:  dennisdelamida/bicep@main
+#  with:
+#   files: 'main.bicep'
 
 # Checks the result
-- name: Check the result
-  shell: bash
-  run: |
-    shopt -s globstar
-    ls -altR **/sample*.*
+#- name: Check the result
+#  shell: bash
+#  run: |
+#    shopt -s globstar
+#    ls -altR **/sample*.*
